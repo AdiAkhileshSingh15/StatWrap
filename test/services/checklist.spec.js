@@ -22,10 +22,6 @@ describe('services', () => {
     const checklistService = new ChecklistService();
 
     beforeEach(() => {
-    });
-
-    afterEach(() => {
-      jest.restoreAllMocks();
       jest.clearAllMocks();
     });
 
